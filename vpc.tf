@@ -15,7 +15,7 @@ module "vpc" {
 
 tags = {
   Name = "Project"
-  Owner = "Terraform"
+  Owner = "Terraform-project"
 }
 
 vpc_tags = {

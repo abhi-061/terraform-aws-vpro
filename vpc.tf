@@ -1,6 +1,6 @@
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
-  version = "5.1.1"
+  version = "2.57.0"
 }
 
   name = var.VPC_NAME
@@ -15,7 +15,7 @@ module "vpc" {
   enable_dns_support =   true
 
 tags = {
-  Name = "Project"
+  Name = "Project-Admin"
   Owner = "Terraform-project"
 }
 

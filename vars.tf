@@ -10,7 +10,7 @@ variable AMIS {
 }
 
 variable PRIV_KEY_PATH {
-  default = " "
+  default = "vprofilekey"
 }
 
 variable PUB_KEY_PATH {
